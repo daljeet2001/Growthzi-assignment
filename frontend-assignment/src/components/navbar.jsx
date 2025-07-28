@@ -30,7 +30,7 @@ function Navbar() {
             PAGES
             {isDropdownOpen && (
               <ul className="dropdown-menu">
-                <li onClick={() => handleNavigation("/room")}>ROOM</li>
+                <li onClick={() => handleNavigation("/")}>ROOM</li>
                 <li onClick={() => handleNavigation("/single-room")}>
                   SINGLE ROOM
                 </li>
