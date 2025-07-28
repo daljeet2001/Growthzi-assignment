@@ -16,14 +16,14 @@ const SuperiorSuite = () => {
 
         <div className="check-times">
           <div className="check-item">
-            <Hotel className="check-icon" />
+           <img src="/icons/check-in.png" width={32} height={32} />
             <div>
               <div className="check-label">Check In</div>
               <div className="check-time">12:00 PM</div>
             </div>
           </div>
           <div className="check-item">
-            <Hotel className="check-icon" />
+            <img src="/icons/check-in-desk.png" width={32} height={32} />
             <div>
               <div className="check-label">Check Out</div>
               <div className="check-time">11:00 AM</div>

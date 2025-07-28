@@ -1,17 +1,21 @@
 import React from "react";
 import Navbar from "../components/navbar";
-
+import CustomButtonEditor from "../components/CustomButtonEditor"
 function RoomHero() {
   return (
     <section className="room-hero">
       <Navbar />
       <div className="room-hero-content">
+           
         <div className="line-and-subtitle">
           <span className="line"></span>
-          <span className="subtitle">OUR ROOM</span>
+          <span className="subtitle">OUR ROOM</span>  
         </div>
-        <h1>Discover The Best Room For You</h1>
+        <div className="heading-button">
+        <h1>Discover The Best Room For You <CustomButtonEditor/></h1>
+        </div>
       </div>
+ 
     </section>
   );
 }
